@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buyurtma berish | ZamonTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <a class="logo" href="index.html">
+
+                <i>
+                    Z
+                </i>
+
+                <span>
+                    Zamon
+                    <b>
+                        Tech
+                    </b>
+                </span>
+            </a>
+            <nav>
+                <a href="index.html">Bosh sahifa</a>
+
+                <a href="services.html">Xizmatlar va narxlar</a>
+
+                <a href="portfolio.html">Qilingan ishlar</a>
+
+                <a href="order.html" class="active">Buyurtma berish</a>
+
+                <a href="contact.html">Aloqa</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrap">
+            <h1>
+                Buyurtma berish
+            </h1>
+
+            <p class="sub">
+                Loyihangiz haqida yozing. Biz 24 soat ichida bog'lanamiz.
+            </p>
+
+            <div class="cols">
+                <form action="#" method="post">
+                    <div class="row">
+                        <div>
+                            <label for="ism">Ism va familiya *</label>
+                            <input id="ism" type="text" required>
+                        </div>
+
+                        <div>
+                            <label for="tel">Telefon raqam *</label>
+                            <input id="tel" type="tel" placeholder="+998 90 123 45 67" required>
+                        </div>
+                    </div>
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="ism@pochta.uz">
+
+                    <div class="row">
+                        <div>
+                            <label for="tur">Nima kerak? *</label>
+                            <select id="tur" required>
+                                <option value="">Tanlang</option>
+                                <option>Veb-sayt</option>
+                                <option>Internet-do'kon</option>
+                                <option>Mobil ilova</option>
+                                <option>Telegram bot</option>
+                                <option>UI/UX dizayn</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="byudjet">Byudjet</label>
+                            <select id="byudjet">
+                                <option>Kelishamiz</option>
+                                <option>3 mln gacha</option>
+                                <option>3-10 mln</option>
+                                <option>10-30 mln</option>
+                                <option>30 mln dan ko'p</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label for="sana">Qachongacha tayyor bo'lsin?</label>
+                    <input id="sana" type="date">
+
+                    <label for="info">Loyiha tavsifi *</label>
+                    <textarea id="info" placeholder="Nima qilmoqchisiz, kimlar uchun, qanday funksiyalar kerak?" required></textarea>
+
+                    <label>Qanday bog'lanaylik?</label>
+                    <div class="radios">
+                        <label>
+                            <input type="radio" name="aloqa" checked>
+                            Telefon
+                        </label>
+
+                        <label>
+                            <input type="radio" name="aloqa">
+                            Telegram
+                        </label>
+
+                        <label>
+                            <input type="radio" name="aloqa">
+                            Email
+                        </label>
+                    </div>
+
+                    <div class="check">
+                        <label>
+                            <input type="checkbox" required>
+                            Ma'lumotlarimni qayta ishlashga roziman
+                        </label>
+                    </div>
+
+                    <button class="btn" type="submit">
+                        Buyurtmani yuborish
+                    </button>
+                </form>
+
+                <div class="card">
+                    <h3>
+                        Buyurtmadan keyin nima bo'ladi?
+                    </h3>
+
+                    <ol class="steps" style="margin-top:18px">
+                        <li>
+                            <div>
+                                <b>Arizani ko'rib chiqamiz</b>
+                                <span>24 soat ichida javob beramiz.</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <b>Bog'lanamiz</b>
+                                <span>Tafsilotlarni aniqlab, narx va muddatni aytamiz.</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <b>Ishni boshlaymiz</b>
+                                <span>Shartnoma tuzilgach loyiha ustida ishlaymiz.</span>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <span>
+                &copy; 2026 ZamonTech. Barcha huquqlar himoyalangan.
+            </span>
+
+            <span>
+                Veb-sayt va ilovalar yaratish studiyasi
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
