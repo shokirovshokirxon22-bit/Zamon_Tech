@@ -540,6 +540,6 @@ footer .wrap {
 
 @media (prefers-reduced-motion: reduce) {
     * {
-        transition: none !important;
+        transition: none;
     }
 }
